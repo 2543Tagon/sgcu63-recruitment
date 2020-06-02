@@ -1,0 +1,10 @@
+{
+    "FolderA":{
+        "_files":["file1","file2"],
+        "SubfolderC":{
+            "_files":["file1"]
+        },"SubforderB":{
+            "_files":["file1"]
+        }
+    }
+}
