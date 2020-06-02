@@ -12,6 +12,8 @@ soup = BeautifulSoup(url.content, "html.parser")
 containers = soup.find_all("div",{"class","ant-col ant-col-8"})
 container = containers[0]
 
+print("please wait")
+
 for container in containers:
     url2 = requests.get("https://rubnongkaomai.com"+container.a["href"])
     nSoup = BeautifulSoup(url2.content, "html.parser")
